@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Patrick+Hand&family=Poppins:wght@100&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+/* Footer style */
+
+.main{
+    padding: 2% 5%;
+}
+.bottom{
+    padding: 1% 5%;
+}
+.main_heading{
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: .2px solid lightgray !important;
+    
+}
+
+.main_heading2{
+    font-size: 28px;
+    *font-weight: 400;
+    border-bottom: .2px solid  lightgray;
+    
+    color: lightgray;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+}
+
+.address span{
+    padding: 1% 0;
+}
+
+.second{
+    border-top: 1px solid lightgray;
+    
+}
+
+.icons{
+    display: flex;
+}
+
+.fs_20{
+    font-size: 20px !important;
+    color: lightgray;
+}
+
+.r-border{
+    border-radius: 100%;
+}
+.text_gray{
+ color: lightgray;
+ display: flex;
+ align-items: center;
+}
+
+
+/* Home Style */
+
+.header{
+    *background: url('images/background.png');
+    *background-size: cover;
+    *background-repeat: no-repeat;
+    background: black;
+    height: 100vh;
+}
+
+.text_style{
+    font-size: 3.5rem;
+    *font-weight: 500;
+}
+
+.text-div{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.description{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    text-align: justify;
+}
